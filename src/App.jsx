@@ -174,14 +174,7 @@ function App() {
               <span className="text-[8px] md:text-[9px] tracking-[0.4em] text-atreus-gold uppercase mt-1 leading-none">Parfums</span>
             </div>
 
-            {/* Desktop Navigation */}
-            <div className="hidden lg:flex items-center gap-8 absolute left-1/2 -translate-x-1/2">
-              {['Para Él', 'Para Ella', 'Unisex', 'Marcas'].map((item) => (
-                <button key={item} className="text-sm font-medium text-gray-300 hover:text-white hover:text-shadow-glow transition-all">
-                  {item}
-                </button>
-              ))}
-            </div>
+            {/* Navigation removida por instrucción (ahora manejada en el filtro de productos) */}
 
             {/* Action Icons */}
             <div className="flex items-center justify-end gap-5">
